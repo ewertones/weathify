@@ -8,7 +8,7 @@ Micro-serviço que recebe requisições HTTP no formato REST, tendo como parâme
 
 **Regras de negócio**
 - \>30° C = Festa
-- ≥15° e <30° C = Pop
+- ≥15° e ≤30° C = Pop
 - ≥10° e <15° C = Rock
 - <10° C = Clássica
 
