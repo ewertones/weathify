@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="ie=edge" http-equiv="X-UA-Compatible">
+    <title>Wheatify</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.6.2/css/bulma.css" rel="stylesheet"/>
+</head>
+<body>
+<section class="hero is-success is-bold is-medium">
+    <div class="hero-body">
+        <div class="container">
+            <h1 class="title">
+                W H E A T I F Y
+            </h1>
+            <h2 class="subtitle">
+                Receba indicações de música com base na temperatura do local desejado. <br>
+                Digite o nome de uma cidade: "Belo Horizonte", <br>
+                ou uma combinação de latitude e longitude: "-19.973, -43.944"
+            </h2>
+        </div>
+    </div>
+</section>
+
+<section class="section">
+    <div class="container">
+        <div class="columns">
+            <div class="column is-offset-3 is-6">
+                <form method="POST">
+                    <div class="field has-addons">
+                        <div class="control is-expanded">
+                            <label>
+                                <input class="input is-large" name="textoDigitado" placeholder="|" type="text">
+                            </label>
+                        </div>
+                        <div class="control">
+                            <button class="button is-info is-large">
+                                Buscar
+                            </button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</section>
+
+</body>
+</html>
